@@ -1,0 +1,23 @@
+<div class="noselect" id="myTimer">
+
+    <div id="h-digits">
+      <i class="material-icons" (click)="upHours()" id="hour-up">keyboard_arrow_up</i>
+        <p id="hours">{{hours}}</p>
+        <p>Hours</p>
+      <i class="material-icons" (click)="downHours()" id="hour-down">keyboard_arrow_down</i>
+    </div>
+
+    <div id="points">
+      <pre> : </pre>
+    </div>
+
+    <div id="m-digits">
+      <i class="material-icons" (click)="upMinutes()" id="minute-up">keyboard_arrow_up</i>
+      <p id="minutes">{{minutes}}</p>
+      <p>Mins</p>
+      <i *ngIf="(hours > 0 && minutes > 0) || ( minutes >= 0 && hours >= 0)" id="minute-down" class="material-icons" (click)="downMinutes()">keyboard_arrow_down</i>
+    </div>
+
+</div>
+
+

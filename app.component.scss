@@ -1,0 +1,36 @@
+.material-icons{
+  cursor: pointer;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+#hours, #minutes {
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 3px;
+  width: 1.5em;
+  text-align: center;
+  font-size: 1.2em;
+  padding: .2em;
+}
+
+#myTimer {
+  margin: 30px;
+  text-align: center;
+}
+
+#points {
+  font-size: 3em;
+}
+
+#h-digits, #m-digits, #points {
+  float:left;
+}
+
